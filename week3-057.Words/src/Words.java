@@ -21,7 +21,7 @@ public class Words {
             if (word.length()<1){
                 System.out.println("You typed: ");
                 for (String wird : words) {
-                    System.out.println(words);}
+                    System.out.println(wird);}
                 break;
             } else {
                 words.add(word);
