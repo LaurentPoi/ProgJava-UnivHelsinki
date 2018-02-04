@@ -14,10 +14,10 @@ public class Words {
         ArrayList<String> words = new ArrayList<String>();
         
         
-        String word = "azer";
+        
         while (true) {
             System.out.print("Type in a word or hit return to stop: ");
-            word = reader.nextLine();
+            String word = reader.nextLine();
             if (word.length()<1){
                 System.out.println("You typed: ");
                 for (String wird : words) {
